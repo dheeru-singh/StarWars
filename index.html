@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+<div class="container">  
+    <br/>
+    <h1 class="text-center">Star Wars RPG!</h1>
+
+	<div class="container restart">
+		<div class="row" id="characters">
+		   
+		 	<div class='title'>Pick your Character</div>
+		 				
+		</div>
+	</div>
+
+	<!-- Both your character and the enemy -->
+	<div class='container'>
+		<div class='row'>
+			<div class='col-md-4' id="yourCharacter"></div>
+			<div class='col-md-4' id="fightButton"></div>
+			<div class='col-md-4' id="currentEnemy"></div>
+        </div>
+        <div class='row'>            
+            <p id="your-score-detail">You attacked <span class="enemy-char">star1</span> for <span class="your-ap"> </span>damage. </p>
+            <p id="enemy-score-detail"><span class="enemy-char">star1</span> attacked you back-for <span class="enemy-ap"> </span>damage.</p>
+        </div>
+	</div>
+
+	<!-- Append remaining enemies here until -->
+	<div class='container'>
+		<div class='row' id='remainingEnemies'>
+		
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div id="game">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="list-inline " id="all-character">
+                    <li class="img-box">
+                        <div class="title">Star 1</div>
+                        <img src="assets/images/star1.jpg"/>
+                        <div class="health-point"> </div>
+                    </li>
+                    <li class="img-box">
+                        <div class="title">Star 2</div>
+                        <img src="assets/images/star2.jpg"/>
+                        <div class="health-point"> </div>
+                    </li>
+                    <li class="img-box">
+                        <div class="title">Star 3</div>
+                        <img src="assets/images/star3.jpg"/>
+                        <div class="health-point"> </div>
+                    </li>
+                    <li class="img-box">
+                        <div class="title">Star 4</div>
+                        <img src="assets/images/star5.jpg"/>
+                        <div class="health-point"> </div>
+                    </li>
+                </ul>
+               
+                <h3>Your Character</h3>
+                <ul class="list-inline " id="your-character">
+                       
+                </ul>
+                <h3>Enemies Available To Attack</h3>
+                <div id="enemy-character">
+                       
+                </div>
+                <h3>Fight Section</h3>
+                <br/>
+                <p>
+                    <button type="button" class="btn btn-warning" id="attack">Attack</button>
+                </p>
+
+                <h3>Defender</h3>
+                <ul class="list-inline " id="defender-character">
+
+                </ul>
+
+                <p id="your-score-detail">You attacked <span>star1</span> for <span>8</span>damage.</p>
+                <p id="enemy-score-detail"><span>star1</span> attacked you back-for <span>25</span>damage.</p>
+
+            </div>
+        </div>
+    </div> -->
+</div>
+
+<script src="assets/js/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+    background-color: lightgray;
+    background: url(../images/bg-img1.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   color: #fff;
+}
+#game{
+    padding: 1rem;
+    margin-top: 2rem;
+    padding-top: 20px;
+    border:1px solid rgb(53, 53, 53);
+    background-color: rgba(39, 57, 176, 0.56);
+    min-height: 400px;
+}
+#game .card{
+    margin: 1rem;
+    text-align: center;
+}
+.card-title {
+    margin-bottom: 0rem;
+}
+p{
+    color: #fff;
+    width: 100%;
+}
+h1{
+    color: #03fdff;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+h1, h2, h3, h4{
+    color: #03fdff;
+    font-weight: bold;
+    text-shadow: 2px 2px 6.5px #000;
+}
+ span{
+    color: #03fdff;
+    font-weight: bold;
+}
+.list-inline li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #1f4fa4c9;
+    border: 5px solid #03fdff;
+    text-align: center;
+    background-color: #fff;
+}
+.yourCharacter{
+    margin: 0 auto;
+    
+}
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.enemy {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+}
+#fightButton{
+    text-align: center;
+}
+#fightButton button{
+    margin-top: 100px;
+}
+.characterName,.characterHealth {
+    background-color: #0492a7;
+    text-align: center;
+}
