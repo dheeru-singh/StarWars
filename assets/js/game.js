@@ -118,7 +118,7 @@ $(document).ready(function() {
 			$('#characters').append('<div class="title">Your Character</div>')
 
 			$yourCharacter = $(this);
-			$yourCharacter.addClass('yourCharacter');
+			$yourCharacter.addClass('yourCharacter col-md-4 ');
 			$yourCharacter.removeClass('col-md-3 character');
 
 			yourHealth = parseInt($yourCharacter.attr('data_health'));
@@ -153,6 +153,7 @@ $(document).ready(function() {
 				$currentEnemy.removeClass('enemy');
 
 				// append your character and enemy picked to the fighting area
+				$yourCharacter.removeClass("col-md-4");
 				$('#yourCharacter').append($yourCharacter);
 
 				$('#fightButton').append('<button type="button" class="btn btn-warning" id="attack-btn">Attack</button>')
