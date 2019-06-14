@@ -58,6 +58,7 @@ h1, h2, h3, h4{
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
+    padding: 20px 0px;
 }
 .enemy {
     float: left;
@@ -67,10 +68,45 @@ h1, h2, h3, h4{
 #fightButton{
     text-align: center;
 }
-#fightButton button{
-    margin-top: 100px;
+#fightButton button, .restartBtn{
+  
+    margin: 100px auto 0;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #b5b5247d;
+    display: block;
+    
+}
+#fightButton button:hover, .restartBtn:hover{
+    color:#fff;
+    background-color: #e0a800;
 }
 .characterName,.characterHealth {
-    background-color: #0492a7;
+    padding: 6px;
     text-align: center;
+}
+.character, .yourCharacter, .enemy, .currentEnemy{
+    margin: 0 auto;
+    border-radius: 20px;
+   /* background-color: #37fffd7d;*/
+    box-shadow: 1px 2px 23.5px #fff;
+    max-width: 200px;
+    padding: 0px;
+    background-color: #00d3ff38;
+    border: 2px solid rgb(0, 247, 153);
+}
+#score-detail{
+    text-align: center;
+    display: block;
+    margin: 30px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 1px 2px 6.5px #fff;
+    background-color: #00d3ff38;
+    
+}
+#score-detail p{
+    padding: 10px;
+    margin: 0px;
 }
